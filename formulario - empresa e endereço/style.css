@@ -1,0 +1,62 @@
+body {
+	background-image: url(sp2.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.area {
+	width: 100%;
+	max-width: 400px;
+	height: 400px;
+	background-color: #D8D8D8;
+	border-radius: 10px;
+}
+
+.titulo {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.areaint {
+	width: 90%;
+	max-width: 500px;
+	margin: auto;
+
+}
+
+.form-control {
+	margin-bottom: 10px;
+	width: 210px;
+
+
+}
+
+.row {
+	margin-top: 20px;
+	margin-bottom: -13px;
+}
+
+#exemplo1 {
+	max-width: 200px;
+	margin-left: 15px;
+}
+
+#exemplo2 {
+	max-width: 155px;
+	margin-left: 5px;
+}
+
+#botao a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#botao {
+	margin-top: 20px;
+	margin-left: 300px;
+}
+

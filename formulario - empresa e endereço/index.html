@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Formulário</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="validarCNPJ.js"></script>
+		
+		<!-- CSS: código CDN do bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+
+		<!-- JQuery: código CDN do bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+		<!-- Javascript: código CDN do bootstrap -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>	
+	</head>
+
+
+
+	<body>
+
+		<div class="area">
+			
+			<div class="titulo">
+				<h3>Insira os dados da empresa</h3>
+			</div>
+
+			<div class="areaint">
+				<form method="post">
+					
+					<div class="row">
+
+						<div class="form-group col-lgl-4">	
+							<input type="text" name="razaosocial" id="exemplo1" placeholder="Razão Social" class="form-control"/>
+						</div>
+
+						<script type="text/javascript">
+							function validarCNPJ(el){
+								  if( !_cnpj(el.value) ){
+
+								    alert("CNPJ inválido!" + el.value);
+
+								   
+								    el.value = "";
+								  }
+								}
+						</script>
+
+						<div class="form-group col-lgl-4">	
+							<input type="text" name="cnpj" id="exemplo2" placeholder="CNPJ" class="form-control" onblur="validarCNPJ(this)" />
+						</div>
+					</div>
+
+					<input type="text" name="nome_contato" placeholder="Nome do contato da empresa" class="form-control"/>
+		
+					<input type="email" name="email" placeholder="Email" class="form-control"/>
+
+					<input type="tel" name="telefone" placeholder="Telefone" class="form-control"/>
+
+
+				</form>
+			</div>	
+
+
+			<div class="proximo">
+				<button type="submit" id="botao" class="btn btn-dark"><a href="endereco.html">Próximo</a></button>
+			</div>
+
+
+		</div>
+
+
+
+
+	</body>
+
+</html>

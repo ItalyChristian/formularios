@@ -1,0 +1,103 @@
+body {
+	background-image: url(sp2.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.area {
+	width: 100%;
+	max-width: 700px;
+	height: 400px;
+	background-color: #D8D8D8;
+	border-radius: 10px;
+}
+
+.titulo {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.areaint {
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+
+}
+
+.form-control {
+	margin-bottom: 10px;
+}
+
+.row {
+	margin-top: 20px;
+	margin-bottom: -13px;
+}
+
+
+#cep {
+	max-width: 150px;
+	margin-left: 15px;
+}
+
+#logradouro {
+	width: 320px;
+	margin-left: 5px;
+}
+
+#bairro {
+	margin-left: 3px;
+	width: 158px;
+}
+
+#cidade {
+	width: 180px;
+	margin-left: 15px;
+}
+
+#uf {
+	width: 180px;
+	margin-left: 5px;
+}
+
+#complemento {
+	width: 210px;
+	margin-left: 5px;
+}
+
+#numero {
+	width: 50px;
+	margin-left: 5px;
+}
+
+label {
+	margin-left: 15px;
+}
+
+#botaovoltar a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#botaoconcluir a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#botaoconcluir {
+	margin-left: 310px;
+	margin-top: -80px;
+}
+
+#botaovoltar {
+	margin-top: -125px;
+	margin-left: 440px;
+}
+
+#comentario {
+	width: 300px;
+	height: 100px;
+}
