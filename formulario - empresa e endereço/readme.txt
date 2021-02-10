@@ -4,6 +4,7 @@ Aprendizados adquiridos com o exercício / Funcionalidades:
 - Validação de CNPJ
 - Validação de CEP e e preenchimento automático de campos de acordo com o mesmo
 - Sugere informações (ex: email) para serem inseridas nos campos de acordo com o que o usuário já utilizou anteriormente em seu dispositivo
+- Conexão com banco de dados (phpmyadmin)
 
 Página principal do projeto: index.html 
 
